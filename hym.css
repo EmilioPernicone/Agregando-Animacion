@@ -1,0 +1,146 @@
+@media (max-width:480px){
+    #grid-area{
+        display:grid;
+        grid-template-areas:
+        "productos"
+        "productos"
+        "pie";
+        grid-template-rows:100% ;
+        grid-template-columns: 1fr;
+    
+
+
+    }
+
+body{
+    width: 100%;
+}
+
+
+.piedepag{
+    grid-area: pie;
+    background-color:black;
+    display: flex;
+    flex-flow: row ;
+    background-image: url("img/fondoLevis.jpg");
+    margin: 0px;
+    
+}
+
+.pie{
+    margin: 0;padding-left:75%;
+}
+img:hover{
+    border-left: solid 5px white;
+    }
+.productoss{
+    grid-area: productos;
+    background-color:black ;
+    margin: 0;padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1,h3,hr{
+    color: red;
+}
+}
+@media (min-width:481px) and (max-width:1024px)
+    #grid-area{
+        display:grid;
+        grid-template-areas:
+        "productos"
+        "productos"
+        "pie";
+        grid-template-rows:100% ;
+        grid-template-columns: 1fr;
+    
+
+
+    }
+
+body{
+    width: 100%;
+}
+
+
+.piedepag{
+    grid-area: pie;
+    background-color:black;
+    display: flex;
+    flex-flow: row ;
+    background-image: url("img/fondoLevis.jpg");
+    margin: 0px;
+    
+}
+
+.pie{
+    margin: 0;padding-left:75%;
+}
+img:hover{
+    border-left: solid 5px white;
+    }
+.productoss{
+    grid-area: productos;
+    background-color:black ;
+    margin: 0;padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h1,h3,hr{
+    color: red;
+}
+}
+@media (min-width:1025px)
+    #grid-area{
+        display:grid;
+        grid-template-areas:
+        "productos"
+        "productos"
+        "pie";
+        grid-template-rows:100% ;
+        grid-template-columns: 1fr;
+    
+
+
+    }
+
+body{
+    width: 100%;
+}
+
+
+.piedepag{
+    grid-area: pie;
+    background-color:black;
+    display: flex;
+    flex-flow: row ;
+    background-image: url("img/fondoLevis.jpg");
+    margin: 0px;
+    
+}
+
+.pie{
+    margin: 0px;padding-left:75%;
+}
+img:hover{
+    border-left: solid 5px white;
+    }
+.productoss{
+    grid-area: productos;
+    background-color:black ;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h1,h3,hr{
+    color: red;
+}
+}

@@ -1,0 +1,20 @@
+footer{
+    grid-area: pie;
+    background-color:black;
+    display: flex;
+    flex-flow: row ;
+    background-image: url("img/fondoLevis.jpg");
+    margin: 0px;
+}
+body{
+    background-color: red;
+}
+.centrar{
+    margin: 0;padding-left: 50vh;
+}
+.pie{
+    margin: 0px;padding-left: 72vw;
+    }
+    h3,h1{
+        color:red
+    }
