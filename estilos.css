@@ -40,7 +40,7 @@
     }
     #productos{
         grid-area: productos; 
-        background-color:black;
+        background-color: black;
         display: flex;
         flex-flow: row nowrap;
         justify-items: center;
@@ -58,7 +58,7 @@
     }
     footer{
         grid-area: pie;
-        background-color:black;
+        background-image:linear-gradient(black,white);
         display: flex;
         flex-flow: row ;
         background-image: url("img/fondoLevis.jpg");
@@ -124,6 +124,9 @@
     .displayoff{
         display: none;
     }
+    .rotar{
+        transform: skewY(15deg);
+    }
 
 }
 @media (min-width:481px) and (max-width:1023px){
@@ -170,7 +173,7 @@
     }
     #productos{
         grid-area: productos; 
-        background-color:black;
+        background-image:linear-gradient(black,white);
         display: flex;
         flex-flow: row nowrap;
         justify-items: center;
@@ -282,6 +285,7 @@
             flex-flow: row wrap;
             justify-content: center;
             align-content: center;
+            transform: skewY(5deg);
 
         }
         nav{
@@ -291,10 +295,11 @@
             flex-flow: column nowrap;
             justify-content: center;    
             margin: 0;
+    
         }
         #productos{
             grid-area: productos; 
-            background-color:black;
+            background-image: linear-gradient(black,white);
             display: flex;
             flex-flow: row nowrap;
             justify-items: center;
